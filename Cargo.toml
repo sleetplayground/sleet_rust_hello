@@ -30,7 +30,7 @@ container_build_command = [
     "cargo",
     "near",
     "build",
-    "reproducible-wasm",
+    "non-reproducible-wasm",
     "--locked",
 ]
 
