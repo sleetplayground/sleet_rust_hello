@@ -1,6 +1,19 @@
+
+/// ❄️👋
+/// Hello
+
+
+
+/// 👋
 // Find all our documentation at https://docs.near.org
 use near_sdk::{log, near};
 
+
+
+
+
+
+/// 👋
 // Define the contract structure
 #[near(contract_state)]
 pub struct Contract {
@@ -16,6 +29,11 @@ impl Default for Contract {
     }
 }
 
+
+
+
+
+/// 👋
 // Implement the contract structure
 #[near]
 impl Contract {
@@ -30,6 +48,11 @@ impl Contract {
         self.greeting = greeting;
     }
 }
+
+
+
+
+
 
 ///👋
 /// TESTS !!!
