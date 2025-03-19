@@ -19,6 +19,13 @@ cargo clean
 ./clean.sh # Just cleans the .wasm files and the custom build directories
 ```
 
+DOCKER
+<br/>
+check docker for latest image and to pull
+<br/>
+https://hub.docker.com/r/sourcescan/cargo-near/tags
+
+
 ###  How to Deploy?
 
 ```bash
