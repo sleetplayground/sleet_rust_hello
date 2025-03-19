@@ -5,3 +5,4 @@
 # Cargo
 /target
 /build_cargo
+/build_near
