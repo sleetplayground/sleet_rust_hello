@@ -31,6 +31,7 @@ container_build_command = [
     "near",
     "build",
     "non-reproducible-wasm",
+    "reproducible-wasm",
     "--locked",
 ]
 
