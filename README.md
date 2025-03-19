@@ -1,6 +1,6 @@
 # sleet_rust_hello
 
-cargo-near-new-project-description
+🦀 a near hello smart contract written in rust
 
 ## How to Build Locally?
 
