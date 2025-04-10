@@ -39,8 +39,27 @@ near deploy <your-account>.near build_near/sleet_rust_hello.wasm
 ---
 
 
+### Contract Methods
+
+The smart contract provides two main methods:
+
+- **get_greeting()**
+  - Returns the current greeting stored in the contract
+  - Example: Returns "Hello" by default
+
+- **set_greeting(greeting: String)**
+  - Updates the greeting stored in the contract
+  - Logs the new greeting
+  - Example: Can set greeting to "howdy" or any other string
+
+These methods allow you to store and retrieve a simple greeting message on the NEAR blockchain.
 
 
+```sh
+near call hello.sleet.near set_greeting '{"message":"❄️ Hello!"}' --accountId sleet.near
+
+near view hello.sleet.near get_greeting
+```
 
 
 
