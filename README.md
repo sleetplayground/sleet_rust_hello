@@ -25,6 +25,11 @@ check docker for latest image and to pull
 <br/>
 https://hub.docker.com/r/sourcescan/cargo-near/tags
 
+TEMPLATE
+```sh
+cargo generate --git https://github.com/sleetplayground/sleet_rust_hello --name <new-project-name>
+```
+
 
 ###  How to Deploy?
 
@@ -53,6 +58,12 @@ The smart contract provides two main methods:
   - Example: Can set greeting to "howdy" or any other string
 
 These methods allow you to store and retrieve a simple greeting message on the NEAR blockchain.
+
+```sh
+near call <your-account>.near set_greeting '{"message":"❄️ Hello!"}' --accountId <your-account>.near
+
+near view <your-account>.near get_greeting
+```
 
 
 ```sh
