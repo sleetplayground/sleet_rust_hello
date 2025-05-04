@@ -60,17 +60,11 @@ The smart contract provides two main methods:
 These methods allow you to store and retrieve a simple greeting message on the NEAR blockchain.
 
 ```sh
-near call <your-account>.near set_greeting '{"message":"❄️ Hello!"}' --accountId <your-account>.near
+near call <your-account>.near set_greeting '{"greeting":"❄️ Hello!"}' --accountId <your-account>.near
 
 near view <your-account>.near get_greeting
 ```
 
-
-```sh
-near call hello.sleet.near set_greeting '{"message":"❄️ Hello!"}' --accountId sleet.near
-
-near view hello.sleet.near get_greeting
-```
 
 
 
